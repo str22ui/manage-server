@@ -104,7 +104,7 @@ const form = reactive({
 })
 
 const isEditing = ref(false)
-const apiUrl = 'http://localhost:3000/api/infrastructure'
+const apiUrl = 'http://192.168.101.58:5000/api/infrastructure'
 
 const fetchInfrastructures = async () => {
   try {
